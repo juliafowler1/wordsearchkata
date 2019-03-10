@@ -1,0 +1,27 @@
+{
+  "name": "wordsearch",
+  "version": "1.0.0",
+  "description": "wordsearchkata",
+  "main": "wordsearch.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "clean": "prettier --write src/**/*.js && prettier --write test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliafowler1/wordsearchkata.git"
+  },
+  "author": "Julia Fowler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliafowler1/wordsearchkata/issues"
+  },
+  "homepage": "https://github.com/juliafowler1/wordsearchkata#readme",
+  "dependencies": {
+    "mocha": "^6.0.2",
+    "prettier": "^1.16.4"
+  }
+}
